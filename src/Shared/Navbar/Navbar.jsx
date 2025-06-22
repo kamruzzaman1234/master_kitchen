@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = ()=>{
     return(
-        <div className="bg-green-600">
+        <div className="bg-black">
             <div className="max-w-[1460px] mx-auto w-full">
-    <div className="navbar bg-green-600 ">
+    <div className="navbar bg-black ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -16,23 +16,23 @@ const Navbar = ()=>{
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><Link to="/" className="font-medium uppercase text-[17px]">Home</Link></li>
-        <li><Link to="/" className="font-medium uppercase text-[17px]">About</Link></li>
-        <li><Link to="/" className="font-medium uppercase text-[17px]">Service</Link></li>
-        <li><Link to="/" className="font-medium uppercase text-[17px]">Blog</Link></li>
-        <li><Link to="/" className="font-medium uppercase text-[17px]">Contact</Link></li>
+        <li><Link to="/" className="font-medium uppercase text-[16px]">Home</Link></li>
+        <li><Link to="/" className="font-medium uppercase text-[16px]">About</Link></li>
+        <li><Link to="/" className="font-medium uppercase text-[16px]">Service</Link></li>
+        <li><Link to="/" className="font-medium uppercase text-[16px]">Blog</Link></li>
+        <li><Link to="/" className="font-medium uppercase text-[16px]">Contact</Link></li>
         
       </ul>
     </div>
-    <Link to="/" className="btn btn-ghost text-xl uppercase">Chef</Link>
+    <Link to="/" className="btn btn-ghost text-xl uppercase">Master <sup className="border-4 border-black">Chef</sup> </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><Link to="/" className="font-medium uppercase text-[17px]">Home</Link></li>
-      <li><Link to="/" className="font-medium uppercase text-[17px]">About</Link></li>
-      <li><Link to="/" className="font-medium uppercase text-[17px]">Service</Link></li>
-      <li><Link to="/" className="font-medium uppercase text-[17px]">Blog</Link></li>
-      <li><Link to="/" className="font-medium uppercase text-[17px]">Contact</Link></li>
+      <li><Link to="/" className="font-medium uppercase text-[16px]">Home</Link></li>
+      <li><Link to="/" className="font-medium uppercase text-[16px]">About</Link></li>
+      <li><Link to="/" className="font-medium uppercase text-[16px]">Service</Link></li>
+      <li><Link to="/" className="font-medium uppercase text-[16px]">Blog</Link></li>
+      <li><Link to="/" className="font-medium uppercase text-[16px]">Contact</Link></li>
     </ul>
   </div>
   <div className="navbar-end gap-2">
